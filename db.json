@@ -1,0 +1,303 @@
+{
+  "user": [
+    {
+      "id": "703b",
+      "firstname": "salman",
+      "lastname": "fadf",
+      "phone": "1552551",
+      "email": "sktrading07032001@gmail.com",
+      "password": "salmamdas"
+    },
+    {
+      "id": "bf77",
+      "firstname": "sdcvsd",
+      "lastname": "afaf",
+      "phone": "9188479",
+      "email": "salman@11.com",
+      "password": "salmamdas"
+    },
+    {
+      "id": "25f6",
+      "firstname": "da;lmdam",
+      "lastname": "SdvS",
+      "phone": "554545",
+      "email": "salman@11.com",
+      "password": "salmamdas"
+    },
+    {
+      "id": "5f23",
+      "firstname": "JNBDJWSDFSD",
+      "lastname": "FFSDFSS45",
+      "phone": "84984",
+      "email": "salman@11.com",
+      "password": "salmamdas"
+    },
+    {
+      "id": "f555",
+      "firstname": "ADADAFAD",
+      "lastname": "ADSCA",
+      "phone": "255",
+      "email": "salman@11.com",
+      "password": "salmamdas"
+    },
+    {
+      "id": "f591",
+      "firstname": "CACD",
+      "lastname": "SADVSD5454",
+      "phone": "",
+      "email": "salman@11.com",
+      "password": "salmamdas"
+    },
+    {
+      "id": "6e07",
+      "firstname": "ASCAD",
+      "lastname": "SDDS6",
+      "phone": "11111",
+      "email": "salman@11.com",
+      "password": "salmamdas"
+    }
+  ],
+  "products": [
+    {
+      "id": "bc7d",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fcd04af1-7e94-4e9b-8a06-3f6ce6066c32/superfly-9-elite-mercurial-dream-speed-fg-high-top-football-boot-0hlF4x.png",
+      "name": "Nike Superfly 9 Elite Mercurial Dream Speed",
+      "price": "25 095.00",
+      "size": "1,2,3,4",
+      "discretion": "Cristiano Ronaldo wouldn't be the competitor he is without setbacks. Made for those obsessed with the game, this version of the Superfly 9 Elite has disruptive ripples that signify the sagas we endure while energetic greens represent the breakthrough that arises when we overcome obstacles. You also get a football-specific Air Zoom unit, so you can put the pedal down in the waning minutes of a match—when it matters most."
+    },
+    {
+      "id": "3ee7",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7cbbc064-e8a4-4cc6-848c-489d70ad3920/air-force-1-07-lv8-shoes-fJ2txz.png",
+      "name": "Nike Air Force 1 '07 LV8",
+      "price": "MRP : ₹ 10 795.00",
+      "size": "1,2,3,4",
+      "discretion": "Comfortable, durable and timeless—it's number 1 for a reason. The classic '80s construction is paired with bold details for style that tracks whether you're on the court or on the go. Nature-inspired features like a canvas upper and special logo bloom from its AF-1 roots.",
+      "category": "men"
+    },
+    {
+      "id": "99bd",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4d080a4c-8f98-45a4-9089-f4fb41697914/defy-all-day-training-shoe-LtD2G1.png",
+      "name": "Nike Defy All Day",
+      "price": "MRP : ₹ 4 995.00",
+      "size": "1,2,3,4",
+      "discretion": "Take on everyday challenges in the Nike Defy All Day. Leather up top and rubber traction on the bottom create a durable design that lasts the rigours of tough training sessions. Soft cushioning carries comfort through your workout—or a day of getting things done.",
+      "category": "men"
+    },
+    {
+      "id": "8cd8",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f21ce99a-a0f1-410f-a2ff-c93b27f457b2/react-phantom-run-flyknit-2-road-running-shoes-LcSGB7.png",
+      "name": "Nike React Phantom Run Flyknit 2",
+      "price": "MRP : ₹ 11 995.00",
+      "size": "1,2,3,4",
+      "discretion": "The Nike React Phantom Run Flyknit 2 offers versatility for the everyday runner.Building on the foundation of its predecessor, the shoe expands on its laceless design by adding secure support that feels like it  on your foot.More foam means better cushioning, keeping you comfortable as you run.",
+      "category": "men"
+    },
+    {
+      "id": "7a01",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9909210d-48ba-459e-96f4-faab32a41ce7/air-jordan-1-low-shoes-459b4T.png",
+      "price": "MRP : ₹ 8 295.00",
+      "name": "Air Jordan 1 Low",
+      "size": "1,2,3,4",
+      "discretion": "Always in, always fresh. The Air Jordan 1 Low sets you up with a piece of Jordan history and heritage that's comfortable all day. Choose your colours, then step out in the iconic profile that's built with a high-end mix of materials and encapsulated Air in the heel",
+      "category": "women"
+    },
+    {
+      "id": "e409",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d7171a94-218e-4945-98cb-43715284f69c/air-jordan-1-low-se-shoes-WSkjPL.png",
+      "price": "MRP : ₹ 10 295.00",
+      "name": "Air Jordan 1 Low SE",
+      "size": "1,2,3,4",
+      "discretion": "Here's some straightforward, good-looking AJ1s. Were you expecting anything less? Crafted from crisp leather, they feature comfortable Nike Air cushioning in the sole. An embroidered Swoosh logo puts the finishing touch on this all-time favourite",
+      "category": "women"
+    },
+    {
+      "id": "3179",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c758f392-c294-49ed-afe3-5e9a02935ba0/air-jordan-1-low-se-craft-shoes-76v7Vm.png",
+      "price": "MRP : ₹ 10 295.00",
+      "name": "Air Jordan 1 Low SE Craft",
+      "size": "1,2,3,4",
+      "discretion": "Dark, stormy and full of style. This AJ1 combines leather, suede and textiles in the upper for a tonal look with plenty of depth.",
+      "category": "women"
+    },
+    {
+      "id": "a1fa",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1cfc4de7-080f-4246-8055-5fc79f1eb430/air-jordan-1-low-se-shoes-ZbxSRp.png",
+      "price": "MRP : ₹ 10 295.00",
+      "name": "Air Jordan 1 Low SE",
+      "size": "1,2,3,4",
+      "discretion": "Refresh your favourite kicks with a denim Swoosh logo and cool colour-blocking. Premium materials and subtle accents combine to bring you a staple sneaker with modern expression.",
+      "category": "women"
+    },
+    {
+      "id": "1f7e",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/198e37ad-6f8f-4fe4-b888-1bd0c32ee2d9/air-max-plus-drift-shoes-FCM3Rg.png",
+      "price": "MRP : ₹ 16 295.00",
+      "name": "Nike Air Max Plus Drift",
+      "size": "1,2,3,4",
+      "discretion": "Let your attitude have the edge in the Air Max Plus Drift, a  Air experience that offers premium stability and cushioning. Featuring airy mesh, gradient colouring and the original wavy design lines, it celebrates your defiant style.",
+      "category": "women"
+    },
+    {
+      "id": "dad5",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/11a8c52c-6264-4c4f-865c-581bb2948483/air-max-plus-older-shoes-rQhBJR.png",
+      "price": "MRP : ₹ 9 995.00",
+      "name": "Nike Air Max Plus",
+      "size": "1,2,3,4",
+      "discretion": "Who says kids don't deserve big cushioning? Not us. Get a taste of our legendary Tuned Air technology with the Nike Air Max Plus. From the school playground to your back garden, these comfy kicks are ready to play with breathable mesh fabric up top and a durable rubber sole underfoot. Plus, wavy design lines and iconic plastic accents celebrate bold style..",
+      "category": "women"
+    },
+    {
+      "id": "28f3",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/658898de-1c54-4974-8382-ea55bf90b93c/court-vision-low-next-nature-shoes-N2fFHb.png",
+      "price": "MRP : ₹ 4 995.00",
+      "name": "Nike Court Vision Low Next Nature",
+      "size": "1,2,3,4",
+      "discretion": "In love with the classic look of '80s basketball but have a thing for the fast-paced culture of today's game? Meet the Nike Court Vision Low. A classic remixed with at least 20% recycled materials by weight, its crisp upper and stitched overlays keep the soul of the original style. The plush, low-cut collar keeps it sleek and comfortable for your world.",
+      "category": "women"
+    }
+  ],
+  "cart": [
+    {
+      "id": "bb51"
+    },
+    {
+      "id": "8ee2"
+    },
+    {
+      "id": "ea9c"
+    },
+    {
+      "id": "e524"
+    },
+    {
+      "id": "1a74"
+    },
+    {
+      "id": "ab25"
+    },
+    {
+      "id": "fef1"
+    },
+    {
+      "id": "9b38"
+    },
+    {
+      "id": "1794"
+    },
+    {
+      "id": "2bd2"
+    },
+    {
+      "id": "47ba"
+    },
+    {
+      "id": "56a7"
+    },
+    {
+      "id": "3971"
+    },
+    {
+      "id": "20b9"
+    },
+    {
+      "id": "e085"
+    },
+    {
+      "id": "81d5"
+    },
+    {
+      "id": "76db"
+    },
+    {
+      "id": "ddd7"
+    },
+    {
+      "id": "3fb4"
+    },
+    {
+      "id": "750a"
+    },
+    {
+      "id": "3162"
+    },
+    {
+      "id": "2d78"
+    },
+    {
+      "id": "b1bc"
+    },
+    {
+      "id": "5022"
+    },
+    {
+      "id": "803f"
+    },
+    {
+      "id": "7216"
+    },
+    {
+      "id": "a868"
+    },
+    {
+      "id": "381a"
+    },
+    {
+      "id": "e5a2"
+    },
+    {
+      "id": "7f56"
+    },
+    {
+      "id": "b49f"
+    },
+    {
+      "id": "d044"
+    },
+    {
+      "id": "f0fe"
+    },
+    {
+      "id": "1b91"
+    },
+    {
+      "id": "d495"
+    },
+    {
+      "id": "8940"
+    },
+    {
+      "id": "02eb"
+    },
+    {
+      "id": "3151"
+    },
+    {
+      "id": "fbd6"
+    },
+    {
+      "id": "736c"
+    },
+    {
+      "id": "16ff"
+    },
+    {
+      "id": "bfa1"
+    },
+    {
+      "id": "c3c6"
+    },
+    {
+      "id": "c47d"
+    },
+    {
+      "id": "f62c"
+    },
+    {
+      "id": "80d7"
+    },
+    {
+      "id": "7447"
+    }
+  ]
+}

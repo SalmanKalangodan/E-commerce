@@ -1,0 +1,12 @@
+.home-main{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.navi-button{
+    width: 20%;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+

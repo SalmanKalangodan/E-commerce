@@ -1,0 +1,10 @@
+.main-btn{
+    justify-content: space-between;
+    width: 20%;
+}
+.subtotal-main{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content:space-evenly;
+}

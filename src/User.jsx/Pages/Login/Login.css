@@ -1,0 +1,29 @@
+.login-main-con{
+width: 50%;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-left: 300px;
+font-size: 60px;
+padding-left: 100px;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.login-main-form{
+    padding-left: 200px;
+    width: 100%;
+    
+}
+.login-input{
+    width: 100%;
+    margin-left: 200px;
+}
+.btn-main-login{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin-left: 200px;
+
+}
