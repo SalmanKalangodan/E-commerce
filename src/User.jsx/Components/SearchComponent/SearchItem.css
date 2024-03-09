@@ -1,4 +1,4 @@
-.main-btn{
+/* .main-btn{
     justify-content: space-between;
     width: 20%;
 }
@@ -8,3 +8,13 @@
     display: flex;
     justify-content:space-evenly;
 }
+.main-search{
+    width: 100%;
+    text-align: center;
+    font-weight:900;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-main-search{
+    width: 25%;
+} */

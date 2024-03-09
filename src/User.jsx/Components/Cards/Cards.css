@@ -1,4 +1,4 @@
-.card-main{
+/* .card-main{
     width: 25%;
 }
 .main-con{
@@ -12,14 +12,14 @@
     font-weight: 900;
     display: flex;
     flex-wrap: wrap;
-}
+} */
 .con::-webkit-scrollbar{
     scroll-behavior: unset;
 }
-.card-titles{
+/* .card-titles{
     font-size: 100px;
 }
 .img-width{
     max-height:420px;
     border-radius: 20px;
-}
+} */

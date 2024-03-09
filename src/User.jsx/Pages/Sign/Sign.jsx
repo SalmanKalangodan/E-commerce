@@ -10,17 +10,15 @@ import { Cartcontext } from '../../Context/CartContext'
 function Sign() {
     const Navigate = useNavigate()
     const [firstname, SetFirstName] = useState("")
-    const [lastname,setLastName]= useState("")
+    const [Cart,setCart]= useState([])
     const [phone,setPhone] =useState("")
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
-    
-
-
+    const [block ,setBlock] =useState(true)
     const Handle = (e) => {
         localStorage.setItem('name',firstname)
         e.preventDefault()
-        axios.post("http://localhost:3000/user", { firstname,lastname,phone, email, password })
+        axios.post("http://localhost:3000/users", { firstname,phone, email, password,Cart, block})
             .then(res => alert('success'))
         Navigate('/login')
             
@@ -28,51 +26,46 @@ function Sign() {
     return (
         <>
             <Navbar />
-            <div className='sign-main-con'>
-                <div className='sign-main'>
-                    <div>
-                        <h1>Register</h1>
-                        <hr />
-                    </div>
-                    <div className='sign-main-form'>
-                        <form>
-                            <label className="form-control w-full max-w-xs">
-                                <div className="label">
-                                    <span className="label-text">FIRST NAME</span>
-                                </div>
-                                <input type="text" placeholder="FIRST NAME" className="input input-bordered w-full max-w-xs" required onChange={(e)=>SetFirstName(e.target.value)} /></label>
-                            <label className="form-control w-full max-w-xs">
-                                <div className="label">
-                                    <span className="label-text">LAST NAME</span>
-                                </div>
-                                <input type="text" placeholder="LAST NAME" className="input input-bordered w-full max-w-xs" required onChange={(e)=>setLastName((e).target.value)}/></label>
-                            <label className="form-control w-full max-w-xs">
-                                <div className="label">
-                                    <span className="label-text">PHONE</span>
-                                </div>
-                                <input type="number" placeholder="PHONE" className="input input-bordered w-full max-w-xs" required onChange={(e)=>setPhone(e.target.value)}/></label>
-                            <label className="form-control w-full max-w-xs">
-                                <div className="label">
-                                    <span className="label-text">EMAIL</span>
-                                </div>
-                                <input type="email" placeholder="EMAIL" className="input input-bordered w-full max-w-xs" required onChange={(e)=>setEmail(e.target.value)}/></label>
-                            <label className="form-control w-full max-w-xs">
-                                <div className="label">
-                                    <span className="label-text">PASSWORD</span>
-                                </div>
-                                <input type="password" placeholder="PASSWORD" className="input input-bordered w-full max-w-xs" required onChange={(e)=>setPassword(e.target.value)} /></label>
-                        </form>
-
-                    </div>
-                    <div>
-                        <button className="btn btn-wide sign-btn-main" onClick={Handle}>Sign</button>
-                        </div>
-                        <div>
-                       <Link to={'/login'} ><button className="btn btn-wide  sign-btn-main">Login</button></Link>
-                        <p className='label-text'>Already Login ?</p>
-                    </div>
-                </div>
-            </div>
+            <div className="hero min-h-screen bg-base-200">
+  <div className="hero-content flex-col lg:flex-row-reverse w-full">
+    <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+    <h1 className='text-center text-xl'>Sign in</h1>
+      <form className="card-body " onSubmit={Handle} >
+      <div className="form-control">
+          <label className="label">
+            <span className="label-text">Name</span>
+          </label>
+          <input type="text" placeholder="Name" className="input input-bordered" required onChange={(e)=>SetFirstName(e.target.value)} />
+        </div>
+      <div className="form-control">
+          <label className="label">
+            <span className="label-text">Email</span>
+          </label>
+          <input type="email" placeholder="Email" className="input input-bordered" required onChange={(e)=>setEmail(e.target.value)} />
+        </div>
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text">Phone</span>
+          </label>
+          <input type="number" placeholder="Phone" className="input input-bordered" required onChange={(e)=>setPhone(e.target.value)} />
+        </div>
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text">Password</span>
+          </label>
+          <input type="password" placeholder="password" className="input input-bordered" required   onChange={(e)=>setPassword(e.target.value)}/>
+          <label className="label">
+          </label>
+        </div>
+        <div className="form-control mt-6">
+        <button className="btn btn-primary mt-6"type='submit'>Sign</button>
+        <Link to={'/login'} className="btn btn-primary mt-6" >Login</Link>
+        <p className='label-text text-center'>Already Login ?</p>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
             <Footer />
         </>
     )
