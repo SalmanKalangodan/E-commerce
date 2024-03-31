@@ -6,16 +6,20 @@ import Navbar from '../../Components/Navbar/Navbar'
 import Footer from '../../Components/Footer/Footer'
 import { Cartcontext } from '../../Context/CartContext'
 import { Link } from 'react-router-dom'
+import { useSelector } from 'react-redux'
+import { data } from 'autoprefixer'
 
 function Login() {
     const Navibar = useNavigate()
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
+    const users =useSelector((state)=>state.ApiSlice.users)
     const Handle = (e) => {
         e.preventDefault()
-        fetch("http://localhost:3000/users")
-            .then(res => res.json())
-            .then(res => res.map(value => {
+        // fetch("http://localhost:3000/users")
+        //     .then(res => res.json())
+        //     .then(res => res
+              users.map(value => {
                 if (email == value.email && password == value.password&&value.block==true) {
                     localStorage.setItem('id',value.id)
                     Navibar('/')
@@ -23,7 +27,7 @@ function Login() {
                   localStorage.setItem("admin",value.admin)
                   Navibar('/admin')
                 } 
-            }))
+            })
     }
     
     return (

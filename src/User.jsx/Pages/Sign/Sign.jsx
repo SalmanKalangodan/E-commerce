@@ -1,11 +1,11 @@
-import React, { useContext, useState } from 'react'
+import React, { useState } from 'react'
 import axios from 'axios'
 import { Link, useNavigate } from 'react-router-dom'
-import './Sign.css'
 import Navbar from '../../Components/Navbar/Navbar'
 import Footer from '../../Components/Footer/Footer'
-import { Cartcontext } from '../../Context/CartContext'
-
+import './Sign.css'
+import { useDispatch } from 'react-redux'
+import { PostUser } from '../../../Redux/ApiSlice/Tunk/Tunk'
 
 function Sign() {
     const Navigate = useNavigate()
@@ -15,11 +15,13 @@ function Sign() {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
     const [block ,setBlock] =useState(true)
+    const dispacth=useDispatch()
     const Handle = (e) => {
         localStorage.setItem('name',firstname)
         e.preventDefault()
-        axios.post("http://localhost:3000/users", { firstname,phone, email, password,Cart, block})
-            .then(res => alert('success'))
+        dispacth(PostUser({ firstname,phone, email, password,Cart, block}))
+        // axios.post("http://localhost:3000/users", { firstname,phone, email, password,Cart, block})
+        //     .then(res => alert('success'))
         Navigate('/login')
             
     }
@@ -29,7 +31,7 @@ function Sign() {
             <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col lg:flex-row-reverse w-full">
     <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-    <h1 className='text-center text-xl'>Sign in</h1>
+    <h1 className='text-center text-xl'>Sign Up</h1>
       <form className="card-body " onSubmit={Handle} >
       <div className="form-control">
           <label className="label">
@@ -58,7 +60,7 @@ function Sign() {
           </label>
         </div>
         <div className="form-control mt-6">
-        <button className="btn btn-primary mt-6"type='submit'>Sign</button>
+        <button className="btn btn-primary mt-6"type='submit'>Sign Up</button>
         <Link to={'/login'} className="btn btn-primary mt-6" >Login</Link>
         <p className='label-text text-center'>Already Login ?</p>
         </div>

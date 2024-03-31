@@ -1,11 +1,11 @@
 .banner{
   background-size: 100vh;
-  background-position-y: 100%;
-  
+  background-position-y: 0%;
+  background-position-x: 8%;
   height:100vh;
 }
 .shoe-title{
-    padding-top: 80px;
+    padding-top: 0px;
     padding-left: 20px;
     font-size: 50px;
     max-width: 400px;
@@ -20,8 +20,8 @@
     width: 400px;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 30px;
-    margin-left: -10px;
+    padding-top: px;
+    margin-bottom: px;
 }
 .header-button{
  width: 150px;

@@ -6,24 +6,25 @@ import './SearchItem.css'
 import { Form, useNavigate } from 'react-router-dom'
 import Footer from '../Footer/Footer'
 import  './SearchItem.css'
+import { useSelector } from 'react-redux'
 
 function SearchItems() {
-const {search} =useContext(Cartcontext)
-const [state ,setState] =useState()
-const searchd= search.toLowerCase()
+// const [state ,setState] =useState()
 const navigate =useNavigate()
-
+const data =useSelector((state)=>state)
+const searchd= data.SearchSlice.Searchs.toLowerCase()
+const state = data.ApiSlice.data
 useEffect(()=>{
-    axios.get("http://localhost:3000/products").then((ref)=>{
-     setState(ref.data)
-    })
+    // axios.get("http://localhost:3000/products").then((ref)=>{
+    //  setState(ref.data)
+    // })
 },[])
   return (
     <div>
     <Navbar />
     <div className='flex flex-wrap gap-10 justify-evenly'>
     {state&&state.map((value ,index)=>{
-       if(value.name.toLowerCase().includes(searchd)){
+       if(value.name.toLowerCase().includes(searchd)||value.category.includes(searchd)){
          return(
             <div key={index} className=''>
             <div className='main-con'>
