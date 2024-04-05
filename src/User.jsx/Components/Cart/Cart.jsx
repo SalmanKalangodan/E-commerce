@@ -63,7 +63,7 @@ const dispacth =useDispatch()
       </div>
       <div className='subtotal-main bg-base-200'>
         {data && data.length >= 1 ?
-          <div className='subtotal-sub' ><button className="btn btn-primary">Proceed to buy</button></div> : <div className='h-full'>add to cart</div>
+          <div className='subtotal-sub' ><Link to={"/payment"}> <button className="btn btn-primary">Proceed to buy</button></Link></div> : <div className='h-full'>add to cart</div>
         }
       </div>
 

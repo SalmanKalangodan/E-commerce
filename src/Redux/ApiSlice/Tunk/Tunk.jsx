@@ -1,6 +1,5 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
 //Get All Products 
 export const GetProducts= createAsyncThunk("GetItem" , async ()=>{
     const ref=  await axios.get(`http://localhost:3000/products`);

@@ -70,7 +70,18 @@
       "phone": "51515",
       "email": "salmanmuthu757@gmail.com",
       "password": "admin123",
-      "Cart": [],
+      "Cart": [
+        {
+          "id": "7a01",
+          "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9909210d-48ba-459e-96f4-faab32a41ce7/air-jordan-1-low-shoes-459b4T.png",
+          "price": 40000,
+          "name": "Air Jordan 1 Low",
+          "size": "1,2,3,4",
+          "discretion": "Always in, always fresh. The Air Jordan 1 Low sets you up with a piece of Jordan history and heritage that's comfortable all day. Choose your colours, then step out in the iconic profile that's built with a high-end mix of materials and encapsulated Air in the heel",
+          "category": "women",
+          "count": 1
+        }
+      ],
       "block": true
     },
     {
@@ -88,27 +99,7 @@
       "phone": 10111,
       "email": "salman@gmail.com",
       "password": "123",
-      "Cart": [
-        {
-          "id": "8cd8",
-          "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f21ce99a-a0f1-410f-a2ff-c93b27f457b2/react-phantom-run-flyknit-2-road-running-shoes-LcSGB7.png",
-          "name": "Nike React Phantom Run Flyknit 2",
-          "price": 1000,
-          "size": "1,2,3,4",
-          "discretion": "The Nike React Phantom Run Flyknit 2 offers versatility for the everyday runner.Building on the foundation of its predecessor, the shoe expands on its laceless design by adding secure support that feels like it  on your foot.More foam means better cushioning, keeping you comfortable as you run.",
-          "category": "men",
-          "count": 1
-        },
-        {
-          "id": "909a",
-          "name": "Nike Air Max 90",
-          "price": "10795.00",
-          "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d056b1cc-6305-4346-aff2-27a24441b5b5/air-max-90-shoes-98F148.png",
-          "discretion": "Lace up and feel the legacy in a champion running shoe that helped define the '90s. Worn by presidents, revolutionised through collabs and celebrated through rare colourways, its striking visuals, Waffle outsole and exposed Air cushioning keep the Air Max 90 alive and well.",
-          "category": "men",
-          "count": 1
-        }
-      ],
+      "Cart": [],
       "block": true
     },
     {
@@ -119,30 +110,125 @@
       "password": "123",
       "Cart": [
         {
-          "id": "4c85",
-          "name": "Jumpman MVP",
-          "price": 15295,
-          "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d7387130-43b4-4cb8-846f-71cdd824beef/jumpman-mvp-shoes-JV1HCs.png",
-          "discretion": "We didn't invent the remix—but considering the material we get to sample, this one's a no-brainer. We took elements from the AJ6, 7 and 8, making them into a completely new shoe that celebrates MJ's first 3-peat championship run. With leather, textile and nubuck details, these sneakers honour one legacy while encouraging you to cement your own.",
-          "category": "men",
+          "id": "3179",
+          "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c758f392-c294-49ed-afe3-5e9a02935ba0/air-jordan-1-low-se-craft-shoes-76v7Vm.png",
+          "price": 100000,
+          "name": "Air Jordan 1 Low SE Craft",
+          "size": "1,2,3,4",
+          "discretion": "Dark, stormy and full of style. This AJ1 combines leather, suede and textiles in the upper for a tonal look with plenty of depth.",
+          "category": "women",
+          "colors": [
+            {
+              "name": "'White'",
+              " class": "'bg-white'",
+              "selectedClass": "'ring-gray-400'"
+            },
+            {
+              "name": "'Gray'",
+              "class": "'bg-gray-200'",
+              "selectedClass": "'ring-gray-400'"
+            },
+            {
+              "name": "'Black'",
+              "class": "'bg-gray-900'",
+              "selectedClass": "'ring-gray-900'"
+            }
+          ],
+          "sizes": [
+            {
+              "name": "XXS",
+              "inStock": false
+            },
+            {
+              "name": "XS",
+              "inStock": true
+            },
+            {
+              "name": "'S'",
+              "inStock": true
+            },
+            {
+              "name": "'M'",
+              "inStock": true
+            },
+            {
+              "name": "'L'",
+              "inStock": true
+            },
+            {
+              "name": "XL",
+              "inStock": true
+            },
+            {
+              "name": "2XL",
+              "inStock": true
+            },
+            {
+              "name": "3XL",
+              "inStock": true
+            }
+          ],
           "count": 1
         },
         {
-          "id": "909a",
-          "name": "Nike Air Max 90",
-          "price": 10795,
-          "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d056b1cc-6305-4346-aff2-27a24441b5b5/air-max-90-shoes-98F148.png",
-          "discretion": "Lace up and feel the legacy in a champion running shoe that helped define the '90s. Worn by presidents, revolutionised through collabs and celebrated through rare colourways, its striking visuals, Waffle outsole and exposed Air cushioning keep the Air Max 90 alive and well.",
-          "category": "men",
-          "count": 1
-        },
-        {
-          "id": "a646",
+          "id": "e409",
+          "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d7171a94-218e-4945-98cb-43715284f69c/air-jordan-1-low-se-shoes-WSkjPL.png",
+          "price": 20000,
           "name": "Air Jordan 1 Low SE",
-          "price": "2000",
-          "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/36a0198b-3c7b-4013-87fd-69ae4f35975f/air-jordan-1-low-se-shoes-xmgzfl.png",
-          "discretion": "Fresh colours give you an updated AJ1 without losing its iconic silhouette and familiar feel. Made from premium leather, this all-time favourite comes decked out with comfortable Nike Air cushioning and subtle design details (check out that embroidered heel) to give you a staple sneaker with a modern look.",
-          "category": "men",
+          "size": "1,2,3,4",
+          "discretion": "Here's some straightforward, good-looking AJ1s. Were you expecting anything less? Crafted from crisp leather, they feature comfortable Nike Air cushioning in the sole. An embroidered Swoosh logo puts the finishing touch on this all-time favourite",
+          "category": "women",
+          "colors": [
+            {
+              "name": "'White'",
+              " class": "'bg-white'",
+              "selectedClass": "'ring-gray-400'"
+            },
+            {
+              "name": "'Gray'",
+              "class": "'bg-gray-200'",
+              "selectedClass": "'ring-gray-400'"
+            },
+            {
+              "name": "'Black'",
+              "class": "'bg-gray-900'",
+              "selectedClass": "'ring-gray-900'"
+            }
+          ],
+          "sizes": [
+            {
+              "name": "XXS",
+              "inStock": false
+            },
+            {
+              "name": "XS",
+              "inStock": true
+            },
+            {
+              "name": "'S'",
+              "inStock": true
+            },
+            {
+              "name": "'M'",
+              "inStock": true
+            },
+            {
+              "name": "'L'",
+              "inStock": true
+            },
+            {
+              "name": "XL",
+              "inStock": true
+            },
+            {
+              "name": "2XL",
+              "inStock": true
+            },
+            {
+              "name": "3XL",
+              "inStock": true
+            }
+          ],
           "count": 1
         }
       ],
@@ -154,7 +240,18 @@
       "phone": "7",
       "email": "aro@gmail.com",
       "password": "123",
-      "Cart": [],
+      "Cart": [
+        {
+          "id": "dad5",
+          "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/11a8c52c-6264-4c4f-865c-581bb2948483/air-max-plus-older-shoes-rQhBJR.png",
+          "price": 4000,
+          "name": "Nike Air Max Plus",
+          "size": "1,2,3,4",
+          "discretion": "Who says kids don't deserve big cushioning? Not us. Get a taste of our legendary Tuned Air technology with the Nike Air Max Plus. From the school playground to your back garden, these comfy kicks are ready to play with breathable mesh fabric up top and a durable rubber sole underfoot. Plus, wavy design lines and iconic plastic accents celebrate bold style..",
+          "category": "women",
+          "count": 1
+        }
+      ],
       "block": true
     },
     {
@@ -175,7 +272,58 @@
       "price": "1000",
       "size": "1,2,3,4",
       "discretion": "The Nike React Phantom Run Flyknit 2 offers versatility for the everyday runner.Building on the foundation of its predecessor, the shoe expands on its laceless design by adding secure support that feels like it  on your foot.More foam means better cushioning, keeping you comfortable as you run.",
-      "category": "men"
+      "category": "men",
+      "colors": [
+        {
+          "name": "'White'",
+          " class": "'bg-white'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Gray'",
+          "class": "'bg-gray-200'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Black'",
+          "class": "'bg-gray-900'",
+          "selectedClass": "'ring-gray-900'"
+        }
+      ],
+      "sizes": [
+        {
+          "name": "XXS",
+          "inStock": false
+        },
+        {
+          "name": "XS",
+          "inStock": true
+        },
+        {
+          "name": "'S'",
+          "inStock": true
+        },
+        {
+          "name": "'M'",
+          "inStock": true
+        },
+        {
+          "name": "'L'",
+          "inStock": true
+        },
+        {
+          "name": "XL",
+          "inStock": true
+        },
+        {
+          "name": "2XL",
+          "inStock": true
+        },
+        {
+          "name": "3XL",
+          "inStock": true
+        }
+      ]
     },
     {
       "id": "7a01",
@@ -184,7 +332,58 @@
       "name": "Air Jordan 1 Low",
       "size": "1,2,3,4",
       "discretion": "Always in, always fresh. The Air Jordan 1 Low sets you up with a piece of Jordan history and heritage that's comfortable all day. Choose your colours, then step out in the iconic profile that's built with a high-end mix of materials and encapsulated Air in the heel",
-      "category": "women"
+      "category": "women",
+      "colors": [
+        {
+          "name": "'White'",
+          " class": "'bg-white'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Gray'",
+          "class": "'bg-gray-200'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Black'",
+          "class": "'bg-gray-900'",
+          "selectedClass": "'ring-gray-900'"
+        }
+      ],
+      "sizes": [
+        {
+          "name": "XXS",
+          "inStock": false
+        },
+        {
+          "name": "XS",
+          "inStock": true
+        },
+        {
+          "name": "'S'",
+          "inStock": true
+        },
+        {
+          "name": "'M'",
+          "inStock": true
+        },
+        {
+          "name": "'L'",
+          "inStock": true
+        },
+        {
+          "name": "XL",
+          "inStock": true
+        },
+        {
+          "name": "2XL",
+          "inStock": true
+        },
+        {
+          "name": "3XL",
+          "inStock": true
+        }
+      ]
     },
     {
       "id": "e409",
@@ -193,7 +392,58 @@
       "name": "Air Jordan 1 Low SE",
       "size": "1,2,3,4",
       "discretion": "Here's some straightforward, good-looking AJ1s. Were you expecting anything less? Crafted from crisp leather, they feature comfortable Nike Air cushioning in the sole. An embroidered Swoosh logo puts the finishing touch on this all-time favourite",
-      "category": "women"
+      "category": "women",
+      "colors": [
+        {
+          "name": "'White'",
+          " class": "'bg-white'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Gray'",
+          "class": "'bg-gray-200'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Black'",
+          "class": "'bg-gray-900'",
+          "selectedClass": "'ring-gray-900'"
+        }
+      ],
+      "sizes": [
+        {
+          "name": "XXS",
+          "inStock": false
+        },
+        {
+          "name": "XS",
+          "inStock": true
+        },
+        {
+          "name": "'S'",
+          "inStock": true
+        },
+        {
+          "name": "'M'",
+          "inStock": true
+        },
+        {
+          "name": "'L'",
+          "inStock": true
+        },
+        {
+          "name": "XL",
+          "inStock": true
+        },
+        {
+          "name": "2XL",
+          "inStock": true
+        },
+        {
+          "name": "3XL",
+          "inStock": true
+        }
+      ]
     },
     {
       "id": "3179",
@@ -202,7 +452,58 @@
       "name": "Air Jordan 1 Low SE Craft",
       "size": "1,2,3,4",
       "discretion": "Dark, stormy and full of style. This AJ1 combines leather, suede and textiles in the upper for a tonal look with plenty of depth.",
-      "category": "women"
+      "category": "women",
+      "colors": [
+        {
+          "name": "'White'",
+          " class": "'bg-white'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Gray'",
+          "class": "'bg-gray-200'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Black'",
+          "class": "'bg-gray-900'",
+          "selectedClass": "'ring-gray-900'"
+        }
+      ],
+      "sizes": [
+        {
+          "name": "XXS",
+          "inStock": false
+        },
+        {
+          "name": "XS",
+          "inStock": true
+        },
+        {
+          "name": "'S'",
+          "inStock": true
+        },
+        {
+          "name": "'M'",
+          "inStock": true
+        },
+        {
+          "name": "'L'",
+          "inStock": true
+        },
+        {
+          "name": "XL",
+          "inStock": true
+        },
+        {
+          "name": "2XL",
+          "inStock": true
+        },
+        {
+          "name": "3XL",
+          "inStock": true
+        }
+      ]
     },
     {
       "id": "a1fa",
@@ -211,7 +512,58 @@
       "name": "Air Jordan 1 Low SE",
       "size": "1,2,3,4",
       "discretion": "Refresh your favourite kicks with a denim Swoosh logo and cool colour-blocking. Premium materials and subtle accents combine to bring you a staple sneaker with modern expression.",
-      "category": "women"
+      "category": "women",
+      "colors": [
+        {
+          "name": "'White'",
+          " class": "'bg-white'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Gray'",
+          "class": "'bg-gray-200'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Black'",
+          "class": "'bg-gray-900'",
+          "selectedClass": "'ring-gray-900'"
+        }
+      ],
+      "sizes": [
+        {
+          "name": "XXS",
+          "inStock": false
+        },
+        {
+          "name": "XS",
+          "inStock": true
+        },
+        {
+          "name": "'S'",
+          "inStock": true
+        },
+        {
+          "name": "'M'",
+          "inStock": true
+        },
+        {
+          "name": "'L'",
+          "inStock": true
+        },
+        {
+          "name": "XL",
+          "inStock": true
+        },
+        {
+          "name": "2XL",
+          "inStock": true
+        },
+        {
+          "name": "3XL",
+          "inStock": true
+        }
+      ]
     },
     {
       "id": "dad5",
@@ -220,7 +572,58 @@
       "name": "Nike Air Max Plus",
       "size": "1,2,3,4",
       "discretion": "Who says kids don't deserve big cushioning? Not us. Get a taste of our legendary Tuned Air technology with the Nike Air Max Plus. From the school playground to your back garden, these comfy kicks are ready to play with breathable mesh fabric up top and a durable rubber sole underfoot. Plus, wavy design lines and iconic plastic accents celebrate bold style..",
-      "category": "women"
+      "category": "women",
+      "colors": [
+        {
+          "name": "'White'",
+          " class": "'bg-white'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Gray'",
+          "class": "'bg-gray-200'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Black'",
+          "class": "'bg-gray-900'",
+          "selectedClass": "'ring-gray-900'"
+        }
+      ],
+      "sizes": [
+        {
+          "name": "XXS",
+          "inStock": false
+        },
+        {
+          "name": "XS",
+          "inStock": true
+        },
+        {
+          "name": "'S'",
+          "inStock": true
+        },
+        {
+          "name": "'M'",
+          "inStock": true
+        },
+        {
+          "name": "'L'",
+          "inStock": true
+        },
+        {
+          "name": "XL",
+          "inStock": true
+        },
+        {
+          "name": "2XL",
+          "inStock": true
+        },
+        {
+          "name": "3XL",
+          "inStock": true
+        }
+      ]
     },
     {
       "id": "96d4",
@@ -228,7 +631,58 @@
       "price": 11495,
       "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d39b8cb3-df87-41a5-885f-949c951c2c55/air-dunk-low-jumbo-shoes-NfdN23.png",
       "discretion": "The '80s icon returns with a nature-inspired aesthetic. This Dunk features a full-length Nike Air unit for even more cushioning, wherever your day takes you. A jumbo Swoosh logo takes centre stage, while the updated tongue sports a large pull tab and exposed foam for a DIY look.",
-      "category": "men"
+      "category": "men",
+      "colors": [
+        {
+          "name": "'White'",
+          " class": "'bg-white'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Gray'",
+          "class": "'bg-gray-200'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Black'",
+          "class": "'bg-gray-900'",
+          "selectedClass": "'ring-gray-900'"
+        }
+      ],
+      "sizes": [
+        {
+          "name": "XXS",
+          "inStock": false
+        },
+        {
+          "name": "XS",
+          "inStock": true
+        },
+        {
+          "name": "'S'",
+          "inStock": true
+        },
+        {
+          "name": "'M'",
+          "inStock": true
+        },
+        {
+          "name": "'L'",
+          "inStock": true
+        },
+        {
+          "name": "XL",
+          "inStock": true
+        },
+        {
+          "name": "2XL",
+          "inStock": true
+        },
+        {
+          "name": "3XL",
+          "inStock": true
+        }
+      ]
     },
     {
       "id": "b06a",
@@ -236,7 +690,58 @@
       "price": 13995,
       "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6b1ebdb3-9043-492d-94bf-8ab78dccafb9/air-max-dn-shoes-FtLNfm.png",
       "discretion": "Say hello to the next generation of Air technology. The Air Max Dn features our Dynamic Air unit system of dual-pressure tubes, creating a reactive sensation with every step. This results in a futuristic design that's comfortable enough to wear from day to night. Go ahead—Feel the Unreal.",
-      "category": "men"
+      "category": "men",
+      "colors": [
+        {
+          "name": "'White'",
+          " class": "'bg-white'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Gray'",
+          "class": "'bg-gray-200'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Black'",
+          "class": "'bg-gray-900'",
+          "selectedClass": "'ring-gray-900'"
+        }
+      ],
+      "sizes": [
+        {
+          "name": "XXS",
+          "inStock": false
+        },
+        {
+          "name": "XS",
+          "inStock": true
+        },
+        {
+          "name": "'S'",
+          "inStock": true
+        },
+        {
+          "name": "'M'",
+          "inStock": true
+        },
+        {
+          "name": "'L'",
+          "inStock": true
+        },
+        {
+          "name": "XL",
+          "inStock": true
+        },
+        {
+          "name": "2XL",
+          "inStock": true
+        },
+        {
+          "name": "3XL",
+          "inStock": true
+        }
+      ]
     },
     {
       "id": "4c85",
@@ -244,7 +749,58 @@
       "price": 15295,
       "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d7387130-43b4-4cb8-846f-71cdd824beef/jumpman-mvp-shoes-JV1HCs.png",
       "discretion": "We didn't invent the remix—but considering the material we get to sample, this one's a no-brainer. We took elements from the AJ6, 7 and 8, making them into a completely new shoe that celebrates MJ's first 3-peat championship run. With leather, textile and nubuck details, these sneakers honour one legacy while encouraging you to cement your own.",
-      "category": "men"
+      "category": "men",
+      "colors": [
+        {
+          "name": "'White'",
+          " class": "'bg-white'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Gray'",
+          "class": "'bg-gray-200'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Black'",
+          "class": "'bg-gray-900'",
+          "selectedClass": "'ring-gray-900'"
+        }
+      ],
+      "sizes": [
+        {
+          "name": "XXS",
+          "inStock": false
+        },
+        {
+          "name": "XS",
+          "inStock": true
+        },
+        {
+          "name": "'S'",
+          "inStock": true
+        },
+        {
+          "name": "'M'",
+          "inStock": true
+        },
+        {
+          "name": "'L'",
+          "inStock": true
+        },
+        {
+          "name": "XL",
+          "inStock": true
+        },
+        {
+          "name": "2XL",
+          "inStock": true
+        },
+        {
+          "name": "3XL",
+          "inStock": true
+        }
+      ]
     },
     {
       "id": "12ed",
@@ -252,7 +808,58 @@
       "price": 9195,
       "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/34b85138-664a-4e01-9aa6-8ac6b41c98e8/jordan-nu-retro-1-low-shoes-8294mJ.png",
       "discretion": "Twenty years later and these low tops are back. Inspired by the original Wings logo and design of the Jordan 1, these all-day, everyday shoes are ready for whatever. Rock 'em with some baggy jeans, skate in 'em or just look fly—it's up to you. Smooth leather uppers and a big embossed logo will help you stand out whether you're dressed up or down.",
-      "category": "men"
+      "category": "men",
+      "colors": [
+        {
+          "name": "'White'",
+          " class": "'bg-white'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Gray'",
+          "class": "'bg-gray-200'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Black'",
+          "class": "'bg-gray-900'",
+          "selectedClass": "'ring-gray-900'"
+        }
+      ],
+      "sizes": [
+        {
+          "name": "XXS",
+          "inStock": false
+        },
+        {
+          "name": "XS",
+          "inStock": true
+        },
+        {
+          "name": "'S'",
+          "inStock": true
+        },
+        {
+          "name": "'M'",
+          "inStock": true
+        },
+        {
+          "name": "'L'",
+          "inStock": true
+        },
+        {
+          "name": "XL",
+          "inStock": true
+        },
+        {
+          "name": "2XL",
+          "inStock": true
+        },
+        {
+          "name": "3XL",
+          "inStock": true
+        }
+      ]
     },
     {
       "id": "d71b",
@@ -260,7 +867,58 @@
       "price": 10000,
       "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7ef38ab5-528e-4da4-b27d-0603e6923f76/air-force-1-07-shoes-dTN9bg.png",
       "discretion": "The radiance lives on in the Air Force 1 '07, the b-ball icon that puts a fresh spin on what you know best: crisp leather, classic comfort and bold details. This version lights up your hidden dragon with a fiery, clawed dubrae and scaly Swoosh logo.",
-      "category": "men"
+      "category": "men",
+      "colors": [
+        {
+          "name": "'White'",
+          " class": "'bg-white'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Gray'",
+          "class": "'bg-gray-200'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Black'",
+          "class": "'bg-gray-900'",
+          "selectedClass": "'ring-gray-900'"
+        }
+      ],
+      "sizes": [
+        {
+          "name": "XXS",
+          "inStock": false
+        },
+        {
+          "name": "XS",
+          "inStock": true
+        },
+        {
+          "name": "'S'",
+          "inStock": true
+        },
+        {
+          "name": "'M'",
+          "inStock": true
+        },
+        {
+          "name": "'L'",
+          "inStock": true
+        },
+        {
+          "name": "XL",
+          "inStock": true
+        },
+        {
+          "name": "2XL",
+          "inStock": true
+        },
+        {
+          "name": "3XL",
+          "inStock": true
+        }
+      ]
     },
     {
       "id": "1825",
@@ -268,7 +926,58 @@
       "price": 6995,
       "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/97bda33a-b474-408d-bd48-28c220462cab/air-force-1-le-older-shoes-Gmwp9p.png",
       "discretion": "As cool today as when it first dropped more than 40 years ago, the AF-1 is a classic you can count on. Its durable construction and grippy tread will see you through breaktime after breaktime. And while they look great fresh out of the box, they remain cool even when covered in scuffs and scrapes. In fact, they might be even better.",
-      "category": "kids"
+      "category": "kids",
+      "colors": [
+        {
+          "name": "'White'",
+          " class": "'bg-white'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Gray'",
+          "class": "'bg-gray-200'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Black'",
+          "class": "'bg-gray-900'",
+          "selectedClass": "'ring-gray-900'"
+        }
+      ],
+      "sizes": [
+        {
+          "name": "XXS",
+          "inStock": false
+        },
+        {
+          "name": "XS",
+          "inStock": true
+        },
+        {
+          "name": "'S'",
+          "inStock": true
+        },
+        {
+          "name": "'M'",
+          "inStock": true
+        },
+        {
+          "name": "'L'",
+          "inStock": true
+        },
+        {
+          "name": "XL",
+          "inStock": true
+        },
+        {
+          "name": "2XL",
+          "inStock": true
+        },
+        {
+          "name": "3XL",
+          "inStock": true
+        }
+      ]
     },
     {
       "id": "b234",
@@ -276,15 +985,58 @@
       "price": 20,
       "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fcd04af1-7e94-4e9b-8a06-3f6ce6066c32/superfly-9-elite-mercurial-dream-speed-fg-high-top-football-boot-0hlF4x.png",
       "discretion": "Cristiano Ronaldo wouldn't be the competitor he is without setbacks. Made for those obsessed with the game, this version of the Superfly 9 Elite has disruptive ripples that signify the sagas we endure while energetic greens represent the breakthrough that arises when we overcome obstacles. You also get a football-specific Air Zoom unit, so you can put the pedal down in the waning minutes of a match—when it matters most.",
-      "category": "men"
-    },
-    {
-      "id": "e9c5",
-      "name": "Future Rider New Core Unisex Sneakers",
-      "price": 8999,
-      "img": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/391927/08/sv01/fnd/IND/fmt/png/Future-Rider-New-Core-Unisex-Sneakers",
-      "discretion": "Keep the game going in the shoe that launched a movement, our Future Rider Play On Unisex Sneakers. This shoe is",
-      "category": "men"
+      "category": "men",
+      "colors": [
+        {
+          "name": "'White'",
+          " class": "'bg-white'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Gray'",
+          "class": "'bg-gray-200'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Black'",
+          "class": "'bg-gray-900'",
+          "selectedClass": "'ring-gray-900'"
+        }
+      ],
+      "sizes": [
+        {
+          "name": "XXS",
+          "inStock": false
+        },
+        {
+          "name": "XS",
+          "inStock": true
+        },
+        {
+          "name": "'S'",
+          "inStock": true
+        },
+        {
+          "name": "'M'",
+          "inStock": true
+        },
+        {
+          "name": "'L'",
+          "inStock": true
+        },
+        {
+          "name": "XL",
+          "inStock": true
+        },
+        {
+          "name": "2XL",
+          "inStock": true
+        },
+        {
+          "name": "3XL",
+          "inStock": true
+        }
+      ]
     },
     {
       "id": "909a",
@@ -292,7 +1044,58 @@
       "price": 10795,
       "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d056b1cc-6305-4346-aff2-27a24441b5b5/air-max-90-shoes-98F148.png",
       "discretion": "Lace up and feel the legacy in a champion running shoe that helped define the '90s. Worn by presidents, revolutionised through collabs and celebrated through rare colourways, its striking visuals, Waffle outsole and exposed Air cushioning keep the Air Max 90 alive and well.",
-      "category": "men"
+      "category": "men",
+      "colors": [
+        {
+          "name": "'White'",
+          " class": "'bg-white'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Gray'",
+          "class": "'bg-gray-200'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Black'",
+          "class": "'bg-gray-900'",
+          "selectedClass": "'ring-gray-900'"
+        }
+      ],
+      "sizes": [
+        {
+          "name": "XXS",
+          "inStock": false
+        },
+        {
+          "name": "XS",
+          "inStock": true
+        },
+        {
+          "name": "'S'",
+          "inStock": true
+        },
+        {
+          "name": "'M'",
+          "inStock": true
+        },
+        {
+          "name": "'L'",
+          "inStock": true
+        },
+        {
+          "name": "XL",
+          "inStock": true
+        },
+        {
+          "name": "2XL",
+          "inStock": true
+        },
+        {
+          "name": "3XL",
+          "inStock": true
+        }
+      ]
     },
     {
       "id": "a646",
@@ -300,7 +1103,58 @@
       "price": "2000",
       "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/36a0198b-3c7b-4013-87fd-69ae4f35975f/air-jordan-1-low-se-shoes-xmgzfl.png",
       "discretion": "Fresh colours give you an updated AJ1 without losing its iconic silhouette and familiar feel. Made from premium leather, this all-time favourite comes decked out with comfortable Nike Air cushioning and subtle design details (check out that embroidered heel) to give you a staple sneaker with a modern look.",
-      "category": "men"
+      "category": "men",
+      "colors": [
+        {
+          "name": "'White'",
+          " class": "'bg-white'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Gray'",
+          "class": "'bg-gray-200'",
+          "selectedClass": "'ring-gray-400'"
+        },
+        {
+          "name": "'Black'",
+          "class": "'bg-gray-900'",
+          "selectedClass": "'ring-gray-900'"
+        }
+      ],
+      "sizes": [
+        {
+          "name": "XXS",
+          "inStock": false
+        },
+        {
+          "name": "XS",
+          "inStock": true
+        },
+        {
+          "name": "'S'",
+          "inStock": true
+        },
+        {
+          "name": "'M'",
+          "inStock": true
+        },
+        {
+          "name": "'L'",
+          "inStock": true
+        },
+        {
+          "name": "XL",
+          "inStock": true
+        },
+        {
+          "name": "2XL",
+          "inStock": true
+        },
+        {
+          "name": "3XL",
+          "inStock": true
+        }
+      ]
     }
   ]
 }

@@ -1,7 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 const initialState={
     Searchs:"",  //Searched Datas
-    category:""  //Category Datas
+    category:"" , //Category Datas
+    Cart : false
 }
 
 export const SearchSlice =createSlice({
@@ -13,10 +14,13 @@ export const SearchSlice =createSlice({
         },
         Category:(state,action)=>{
             state.category=action.payload
+        },
+        Cart:(state,action)=>{
+            state.Cart=action.payload
         }
     }
 
 })
 
-export const {Search ,Category} =SearchSlice.actions
+export const {Search ,Category , Cart} =SearchSlice.actions
 export default SearchSlice.reducer 

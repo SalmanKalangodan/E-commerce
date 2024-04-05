@@ -9,6 +9,7 @@ import { Cartcontext } from './Context/CartContext'
 import SearchItems from './Components/SearchComponent/SearchItems'
 import Admin from '../Admin/Admin'
 import Catagory from './Components/Category/Catagory'
+import Payment from './Components/Payment/Payment'
 function User() {
   const [search ,setSearch] =useState("")
   const [count,setCount] =useState(1)
@@ -27,6 +28,7 @@ function User() {
             <Route path='/search' element={<SearchItems />} />
             <Route path='/category' element={<Catagory />} />
             <Route path='/admin/*' element= {<Admin />} />
+            <Route path='/payment' element= {<Payment />} />
         </Routes>
         
         </Cartcontext.Provider>
