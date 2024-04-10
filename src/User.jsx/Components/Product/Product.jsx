@@ -10,6 +10,7 @@ import { AddCart, GetProductsId, GetUserId } from '../../../Redux/ApiSlice/Tunk/
 // import { add } from '../../../Redux/ApiSlice/ApiSlice'
 import { StarIcon } from '@heroicons/react/20/solid'
 import { RadioGroup } from '@headlessui/react'
+import { Cart } from '../../../Redux/SearchSlice/SearchSlice'
 
 function Product() {
   const navigate = useNavigate()
@@ -36,7 +37,7 @@ function Product() {
   
 
   }, [])
-  const product = useSelector((state)=>state.ApiSlice.ProductId)
+  const product = useSelector(  (state) => state.ApiSlice.ProductId)
 
   useEffect(() => {
     usercart && usercart.map((value) => {
@@ -65,6 +66,9 @@ function Product() {
     }
     setCount(pvr => pvr - 1)
   }
+ const  HandleCart =()=>{
+  dispacth(Cart(true))
+ }
 
   // return (
   //   <div>
@@ -121,28 +125,28 @@ function classNames(...classes) {
             
 {/* Image gallery */}
 <div className="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-x-8 lg:px-8">
-<div className="aspect-h-4 aspect-w-3 hidden overflow-hidden rounded-lg lg:block">
+{/* <div className="aspect-h-4 aspect-w-3 hidden overflow-hidden rounded-lg lg:block">
   <img
     src={product.img}
     
     className="h-full w-full object-cover object-center"
   />
-</div>
+</div> */}
 <div className="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
-  <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
+  {/* <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
     <img
       src={product.img}
       
       className="h-full w-full object-cover object-center"
     />
-  </div>
-  <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
+  </div> */}
+  {/* <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
     <img
       src={product.img}
       
       className="h-full w-full object-cover object-center"
     />
-  </div>
+  </div> */}
 </div>
 <div className="aspect-h-5 aspect-w-4 lg:aspect-h-4 lg:aspect-w-3 sm:overflow-hidden sm:rounded-lg">
   <img
@@ -291,7 +295,7 @@ function classNames(...classes) {
       className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
       onClick={() => Handle(product.id)}  >
       Add to bag
-    </button> : <Link to='/cart'> <button
+    </button> : <Link to='' onClick={HandleCart}> <button
       type="submit"
       className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
         >

@@ -99,7 +99,69 @@
       "phone": 10111,
       "email": "salman@gmail.com",
       "password": "123",
-      "Cart": [],
+      "Cart": [
+        {
+          "id": "7a01",
+          "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9909210d-48ba-459e-96f4-faab32a41ce7/air-jordan-1-low-shoes-459b4T.png",
+          "price": 40000,
+          "name": "Air Jordan 1 Low",
+          "size": "1,2,3,4",
+          "discretion": "Always in, always fresh. The Air Jordan 1 Low sets you up with a piece of Jordan history and heritage that's comfortable all day. Choose your colours, then step out in the iconic profile that's built with a high-end mix of materials and encapsulated Air in the heel",
+          "category": "women",
+          "colors": [
+            {
+              "name": "'White'",
+              " class": "'bg-white'",
+              "selectedClass": "'ring-gray-400'"
+            },
+            {
+              "name": "'Gray'",
+              "class": "'bg-gray-200'",
+              "selectedClass": "'ring-gray-400'"
+            },
+            {
+              "name": "'Black'",
+              "class": "'bg-gray-900'",
+              "selectedClass": "'ring-gray-900'"
+            }
+          ],
+          "sizes": [
+            {
+              "name": "XXS",
+              "inStock": false
+            },
+            {
+              "name": "XS",
+              "inStock": true
+            },
+            {
+              "name": "'S'",
+              "inStock": true
+            },
+            {
+              "name": "'M'",
+              "inStock": true
+            },
+            {
+              "name": "'L'",
+              "inStock": true
+            },
+            {
+              "name": "XL",
+              "inStock": true
+            },
+            {
+              "name": "2XL",
+              "inStock": true
+            },
+            {
+              "name": "3XL",
+              "inStock": true
+            }
+          ],
+          "count": 1
+        }
+      ],
       "block": true
     },
     {

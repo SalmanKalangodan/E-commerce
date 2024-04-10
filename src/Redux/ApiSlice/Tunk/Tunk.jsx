@@ -22,7 +22,7 @@ export const PostUser = createAsyncThunk('Postuser', async ({firstname,phone,ema
 //Add Product To Cart
 export const AddCart = createAsyncThunk ('AddCart' ,async ({uid , cart,carts})=>{
     await  axios.patch(`http://localhost:3000/users/${uid}`,{ ...cart, Cart: carts })
-     .then(alert("Added"))
+     .then(alert("Added")).then(window.location.reload())
 })
 //Remove Product From The Cart
 export const RemoveCart = createAsyncThunk("RemoveCart" , async ({ uid , datas , cart})=>{
